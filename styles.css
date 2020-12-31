@@ -12,5 +12,35 @@ body {
   justify-content: center;
   align-items: center;
 }
+body .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .container header {
+  text-align: center;
+}
+body .container header h1 {
+  margin: 10px;
+}
+body .container header h2 {
+  margin: 10px;
+}
+body .container .board {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+body .container .board .card {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+body .container .board .card:hover {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=styles.css.map */

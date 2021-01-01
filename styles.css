@@ -38,6 +38,8 @@ body .container .board .card {
   width: 200px;
   height: 200px;
   margin: 20px;
+  border: 2px solid #c9b4b4;
+  border-radius: 10px;
 }
 body .container .board .card:hover {
   cursor: pointer;

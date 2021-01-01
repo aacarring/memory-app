@@ -29,19 +29,18 @@ body .container header h2 {
 }
 body .container .board {
   display: grid;
-  justify-content: center;
-  align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  margin: auto;
 }
-body .container .board .card {
+body .container .board img {
   width: 200px;
   height: 200px;
-  margin: 20px;
+  margin: 10px;
   border: 2px solid #c9b4b4;
-  border-radius: 10px;
+  border-radius: 5px;
 }
-body .container .board .card:hover {
+body .container .board img:hover {
   cursor: pointer;
 }
 

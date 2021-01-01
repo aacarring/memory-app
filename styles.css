@@ -20,6 +20,7 @@ body .container {
 }
 body .container header {
   text-align: center;
+  font-family: monospace;
 }
 body .container header h1 {
   margin: 10px;
@@ -30,10 +31,11 @@ body .container header h2 {
 body .container .grid {
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
-  height: 300px;
+  width: 700px;
+  height: 440px;
 }
-body .container .grid img {
+body .container img {
+  margin: 10px;
   width: 200px;
   height: 200px;
 }

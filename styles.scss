@@ -25,21 +25,15 @@ body {
                 margin: 10px;
             }
         }
-        .board {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            margin: auto;
-            img {
-                width: 200px;
-                height: 200px;
-                margin: 10px;
-                border: 2px solid rgb(201, 180, 180);
-                border-radius: 5px;
-                &:hover {
-                    cursor: pointer;
-                }
-            }
+        .grid {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 300px;
+        img {
+            width: 200px;
+            height: 200px;
+        }
         }
     }
 }
